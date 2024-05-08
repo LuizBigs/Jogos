@@ -1,0 +1,29 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: black;
+  }
+  
+  .game-button {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin: 0 20px;
+    background-size: cover;
+    background-position: center;
+  }
+  
+  #game1 {
+    background-image: url('game1-cover.jpg');
+  }
+  
+  #game2 {
+    background-image: url('game2-cover.jpg');
+  }
+  
+  #game3 {
+    background-image: url('game3-cover.jpg');
+  }
+  

@@ -1,0 +1,94 @@
+body {
+    background-color: #E8E8E8; /* Cor de fundo alterada para cinza claro */
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+#header {
+    background:#000000;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+#nav {
+    background: #A9A9A9;
+    color: white;
+    padding: 10px;
+}
+#nav ul {
+    list-style-type: none; /* Remove os marcadores de lista */
+    padding: 0;
+}
+#nav ul li {
+    display: inline-block; /* Altera para inline-block para permitir padding */
+    margin-right: 10px;
+    padding: 10px 20px; /* Adiciona padding para aumentar a área clicável */
+    transition: all 0.3s ease;
+    border-radius: 5px; /* Adiciona bordas arredondadas */
+}
+#nav ul li a {
+    text-decoration: none; /* Remove a linha de sublinhado */
+    font-weight: bold; /* Torna a fonte em negrito */
+    color: black; /* Muda a cor da fonte para preto */
+}
+#nav ul li:hover {
+    background-color: #008CBA; /* Adiciona uma cor de fundo ao passar o mouse */
+    color: white;
+}
+#content {
+    clear: both;
+    padding: 20px;
+}
+
+.game-item {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+    transition: all 0.3s ease;
+}
+.game-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+}
+.game-item h2 a {
+    color: #333; /* Muda a cor da fonte para preto */
+    text-decoration: none; /* Remove a linha de sublinhado */
+}
+.game-item button {
+    display: block;
+    width: 58%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #008CBA;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.game-item button:hover {
+    background-color: #007B9A;
+    transform: scale(1.1);
+}
+.game-item button i {
+    font-size: 20px;
+    color: white;
+}
+
+/* Centraliza o relógio horizontalmente e verticalmente */
+.clock {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Define a altura para ocupar toda a altura da tela */
+    font-size: 24px; /* Ajuste o tamanho da fonte conforme necessário */
+}
